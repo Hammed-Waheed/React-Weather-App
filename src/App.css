@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Lobster Two', cursive;
+}
+
+.App{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+}
+
+.App > h1:first-child{
+    background: #c1b139 ;
+    /* width: fit-content; */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 70px;
+}
+
+.weather-container{
+    display: flex;
+    margin: 1rem;
+    background: #c1b139;
+}
+
+.line{
+    border-right: 5px solid #f7cad1;
+    height: 410px;
+    margin-top: 10px;
+}
+
+.left{
+    
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    text-align: left;
+}
+
+.right{
+    padding: 1rem;
+    color: white;
+    text-align: left;
+}
