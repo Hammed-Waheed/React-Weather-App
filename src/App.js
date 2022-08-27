@@ -22,7 +22,7 @@ function App() {
 
 		//SEND REQUEST TO EXTERNAL API USE FETCH METHOD
 		fetch(
-			`https://api.openweathermap.org/data/2.5/weather?q=${ inputValue }&appid=${process.env.REACT_APP_API_KEY}&units=metric`
+			`https://api.openweathermap.org/data/2.5/weather?q=${inputValue}&appid=${process.env.REACT_APP_API_KEY}&units=metric`
 		)
 			.then((response) => response.json())
 			.then((result) => {
