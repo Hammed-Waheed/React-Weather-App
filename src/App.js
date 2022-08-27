@@ -39,6 +39,7 @@ function App() {
 						max_temp: result.main.temp_max,
 						city: result.name,
 						humidity: result.main.humidity,
+						REACT_APP_API_KEY,
 					});
 				}
 			});
